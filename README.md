@@ -4,19 +4,21 @@
 ![](./img/solidWhiteCurve.jpg)
 
 ### Convert img to grayscale and normalize image, s.t. images are not depending on light
-![](./img/grayscale.jpg)
+![](./img/grayscale.png)
 
 ### Gaussian blur on img
-![](./img/)
+![](./img/blur.png)
 
 ### Canny edge on img
-![](./img/)
+![](./img/edge.png)
 
 ### Define region-of-interest, which is large enough in order to contain lanes but small enough in order to ignore background
-![](./img/)
+![](./img/roi.png)
+
+![](./img/roi_lines.png)
 
 ### Hough-transform img
-![](./img/)
+![](./img/hough.png)
 
 ### Calculate average lines left / right
 		a. Calculate slopes and offset on detected linesslope > threshold (e.g. 0.3), since road is nearly straight aheady = mx + b = slope * x + offset
