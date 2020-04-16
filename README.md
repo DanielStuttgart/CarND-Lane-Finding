@@ -27,6 +27,7 @@
 4. Calculate new cluster centers without outliers
 5. Extrapolated lines = lines with parameters (offset, slope) of cluster centers
     ![](./img/etrap_lines.png)
+    
     f. Create new image with extrapolated lines
     ![](./img/output.png)
 
