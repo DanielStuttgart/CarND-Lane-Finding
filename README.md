@@ -21,14 +21,14 @@
 ![](./img/hough.png)
 
 ### Calculate average lines left / right
-		a. Calculate slopes and offset on detected linesslope > threshold (e.g. 0.3), since road is nearly straight aheady = mx + b = slope * x + offset
-		b. Build two clusters from slopes (x-axis) and offsets (y-axis)Algorithm used: k-means
-		c. Detect outliers with filtering within interquartile range
-		d. Calculate new cluster centers without outliers
-    e. Extrapolated lines = lines with parameters (offset, slope) of cluster centers
-    ![]()
+1. Calculate slopes and offset on detected linesslope > threshold (e.g. 0.3), since road is nearly straight aheady = mx + b = slope * x + offset
+2. Build two clusters from slopes (x-axis) and offsets (y-axis)Algorithm used: k-means
+3. Detect outliers with filtering within interquartile range
+4. Calculate new cluster centers without outliers
+5. Extrapolated lines = lines with parameters (offset, slope) of cluster centers
+    ![](./img/etrap_lines.png)
     f. Create new image with extrapolated lines
-    ![]()
+    ![](./img/output.png)
 
 ## Potential shortcomings
 The implemented version of a line annotation detects straight lines but will probably not be able to detect lanes above certain curvatures. Furthermore, canny edge highlights edges within the image independent from its orientation. 
