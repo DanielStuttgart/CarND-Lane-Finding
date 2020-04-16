@@ -4,7 +4,7 @@
 ![](./img/solidWhiteCurve.jpg)
 
 ### Convert img to grayscale and normalize image, s.t. images are not depending on light
-![](./img/)
+![](./img/grayscale.jpg)
 
 ### Gaussian blur on img
 ![](./img/)
